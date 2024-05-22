@@ -200,6 +200,6 @@ body {
 }
 /*# sourceMappingURL=main.css.map */
 
-.accordion-body {
+.accordion-body:has(.yotpo-device-mobile) {
     padding: 10px 0 !important;
 }
